@@ -19,7 +19,7 @@ const config = {
     // 从 https://sematext.com/ 申请并修改令牌
     sematextToken: "00000000-0000-0000-0000-000000000000",
     // 是否丢弃请求中的 Referer，在目标网站应用防盗链时有用
-    dropReferer: true,
+    dropReferer: false,
     // weibo workarounds
     weiboCDN: [".weibocdn.com", ".sinaimg.cn"],
     weiboReferer: "https://weibo.com/",
