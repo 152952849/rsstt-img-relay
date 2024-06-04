@@ -17,9 +17,9 @@ const config = {
     selfURL: "", // to be filled later
     URLRegExp: "^(\\w+://.+?)/(.*)$",
     // 从 https://sematext.com/ 申请并修改令牌
-    sematextToken: "00000000-0000-0000-0000-000000000000",
+    sematextToken: "1d1541c5-0f9f-49bb-b5a2-6023e388cd1b",
     // 是否丢弃请求中的 Referer，在目标网站应用防盗链时有用
-    dropReferer: false,
+    dropReferer: true,
     // weibo workarounds
     weiboCDN: [".weibocdn.com", ".sinaimg.cn"],
     weiboReferer: "https://weibo.com/",
